@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+#root {
+  text-align: center;
+  vertical-align: center;
+} 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
