@@ -2,12 +2,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 #root {
   text-align: center;
   vertical-align: center;
+  margin: auto;
+  padding: 20px 0 0 0;
+  width: 415px;
 } 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

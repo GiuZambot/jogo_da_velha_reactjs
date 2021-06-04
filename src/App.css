@@ -6,29 +6,24 @@ li button {
   width: 150px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 .status {
   margin-bottom: 10px;
 }
 
 .square {
-  background: rgb(189, 228, 233);
-  border: 2px solid #666;
+  --tamanho: 62px;
+  background: transparent;
+  border: 3px transparent;
   float: left;
-  font-size: 44px;
+  font-size: calc(var(--tamanho) - 20px);
   font-weight: bold;
-  line-height: 62px;
-  height: 62px;
+  line-height: var(--tamanho);
+  height: var(--tamanho);
+  width: var(--tamanho);
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 62px;
 }
 
 .square:focus {
@@ -39,8 +34,11 @@ li button {
   border: 3px solid rgb(75, 214, 168);
 }
 
-.kbd-navigation .square:focus {
-  background: #ddd;
+.game-board {
+  background-image: url("jogo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
 }
 
 .game {
